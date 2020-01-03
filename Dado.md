@@ -1,0 +1,38 @@
+# Dados Python
+
+import random
+# siendo N el numero de elementos de tu lista(numero de tiradas)
+ 
+def dado1(n):
+     result=[]
+     for i in xrange(0,n):
+         result.append(random.randint(1, 100))
+     return result
+ 
+
+exp1=dado1(1)
+print("Dado 100 Caras",exp1)
+
+def dado2(n):
+     result=[]
+     for i in xrange(0,n):
+         result.append(random.randint(1, 2))
+     return result
+ 
+exp2=dado2(1)
+print("Dado 2 Caras",exp2)
+
+
+
+
+
+def dado3(n):
+     result=[]
+     for i in xrange(0,n):
+         result.append(random.randint(1, 18))
+     return result
+ 
+
+exp3=dado3(1)
+print("Dado 18 Caras",exp3)
+

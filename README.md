@@ -1,2 +1,0 @@
-# Nikito
-new proyect
